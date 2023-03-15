@@ -1,1 +1,2 @@
- 
+$ conda create -- name gan
+$ conda activate gan
