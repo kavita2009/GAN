@@ -21,8 +21,3 @@ train_set = [(train_data)]
 #[i], train_labels[i], for i in range(train_data_length)]
 
 plt.plot(train_data[:,0],train_data[:,1],".")
-
-batch_size = 32
-train_loader = torch.utils.data.DataLoader(
-    train_set, batch_size=batch_size, shuffle= True
-)
